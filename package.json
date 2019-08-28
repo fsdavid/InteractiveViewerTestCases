@@ -1,0 +1,22 @@
+{
+  "name": "webdriver-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chai": "^4.2.0",
+    "chromedriver": "^76.0.0",
+
+    "selenium-webdriver": "^4.0.0-alpha.4"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --timeout 1000000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
